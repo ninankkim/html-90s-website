@@ -1,0 +1,44 @@
+body.mydoggo {
+    background-image: url('images/dogback.jpg');
+    background-repeat: repeat;
+}
+
+h1 {
+    text-align: center;
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: 0%;
+    }
+    50% {
+        margin-right: 500px;
+    }
+    100% {
+        margin-left: 0%;
+    }
+}
+
+p {
+    width: 500;
+    background-color: white;
+    text-align: center;
+}
+
+img {
+    border: 5px solid black;
+    border-radius: px;
+    padding: 5px;
+    width: 450px;
+}
+
+a{
+    color: black;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+}

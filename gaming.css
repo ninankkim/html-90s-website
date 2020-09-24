@@ -1,0 +1,40 @@
+video {
+	margin: 0 auto;
+    border: 3px dashed blue;
+    padding: 5px;
+    width: 450px;
+}
+
+h1 {
+    text-align: center;
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: 0%;
+    }
+    50% {
+        margin-right: 500px;
+    }
+    100% {
+        margin-left: 0%;
+    }
+}
+
+a {
+    color: white;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
